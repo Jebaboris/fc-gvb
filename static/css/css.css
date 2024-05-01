@@ -1,0 +1,150 @@
+#navbar{
+    height: 75px;
+    background-color: rgb(127, 236, 255);
+}
+
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+}
+
+#center{
+    display: inline-block;
+    position: fixed;
+    width: 80%;
+    margin-left: 10%;
+    height: 80%;
+    border: 1px solid black;
+    background-color: rgba(127, 246, 255, 0.377);
+}
+
+#footer{
+    position: absolute;
+    bottom: 0px;    
+    width: 100%;
+    height: 75px;
+}
+
+.tovar{
+    width: 27%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: auto;
+    display: inline-flex;
+    border: 5px solid black;
+}
+
+#karitinka1{
+    width: 300px;
+    height: 200px;
+}
+
+.pagelist{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#tovari1{
+    margin-left: 0.5%
+}
+
+#tovari2{
+    margin-left: 0.5%
+}
+
+#tovari3{
+    margin-left: 0.5%
+}
+
+.contact_form{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+
+.contact_form li{
+    padding:12px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+} 
+
+.contact_form li:first-child, .contact_form li:last-child {
+    border-bottom:1px solid #777;
+}
+  
+.contact_form h2 {
+    margin:0;
+    display: inline;
+}
+.required_notification {
+    color:#d45252;
+    margin:5px 0 0 0;
+    display:inline;
+    float:right;
+}
+  
+.contact_form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:3px;
+}
+
+
+.contact_form input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+
+
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+  
+.contact_form input, .contact_form textarea {
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+
+
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 10%;
+    margin-right: 8%;
+    bottom: 45%;
+}
+  
+.star {
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color: #ccc;
+}
+  
+.star:hover {
+    color: #ffc107;
+}
+  
+.star--active {
+    color: #ffc107;
+}
